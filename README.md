@@ -1,6 +1,6 @@
 # ✈️ Smart AI Travel Assistant
 
-AI chatbot berbasis Gemini API dan Streamlit untuk membantu traveling.
+AI chatbot berbasis LLM API dan Streamlit untuk membantu traveling.
 
 ## Features
 
@@ -10,7 +10,7 @@ AI chatbot berbasis Gemini API dan Streamlit untuk membantu traveling.
 - Budget Planner
 - Packing Checklist
 - Streamlit UI
-- Gemini API
+- LLM API
 - LangChain
 - FAISS Vector Database
 
@@ -18,7 +18,7 @@ AI chatbot berbasis Gemini API dan Streamlit untuk membantu traveling.
 
 - Python
 - Streamlit
-- Gemini API
+- LLM API
 - LangChain
 - FAISS
 
