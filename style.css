@@ -1,0 +1,314 @@
+/* ===== GLOBAL ===== */
+
+/* ===== GLOBAL ===== */
+
+html, body, [data-testid="stAppViewContainer"], .stApp {
+    background: linear-gradient(to right, #0f172a, #1e3a5f) !important;
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* REMOVE WHITE SPACE */
+.main {
+    background: transparent !important;
+}
+
+/* MAIN CONTAINER */
+.block-container {
+    padding-top: 0rem !important;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+/* ===== TITLE ===== */
+
+.main-title {
+    font-size: 58px;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+/* ===== SUBTITLE ===== */
+
+.subtitle {
+    text-align: center;
+    font-size: 22px;
+    color: #dbeafe;
+    margin-bottom: 30px;
+}
+
+/* ===== SIDEBAR ===== */
+
+section[data-testid="stSidebar"] {
+    background-color: #020817;
+    border-right: 1px solid rgba(255,255,255,0.08);
+}
+
+/* ===== SIDEBAR TEXT ===== */
+
+section[data-testid="stSidebar"] * {
+    color: white !important;
+}
+
+/* ===== SELECTBOX ===== */
+
+.stSelectbox div[data-baseweb="select"] {
+    background-color: #1e293b !important;
+    color: white !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* SELECTBOX TEXT */
+.stSelectbox span {
+    color: white !important;
+}
+
+/* ===== FILE UPLOADER ===== */
+
+[data-testid="stFileUploader"] {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    padding: 15px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* FILE TEXT */
+[data-testid="stFileUploader"] * {
+    color: white !important;
+}
+
+/* ===== INPUT ===== */
+
+.stTextInput input,
+.stNumberInput input {
+    background-color: #1e293b !important;
+    color: white !important;
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ===== CHAT INPUT ===== */
+
+[data-testid="stChatInput"] textarea {
+    background-color: #1e293b !important;
+    color: white !important;
+    border-radius: 15px !important;
+}
+
+/* PLACEHOLDER */
+textarea::placeholder {
+    color: #cbd5e1 !important;
+}
+
+/* ===== BUTTON ===== */
+
+.stButton button {
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    background: linear-gradient(to right, #3b82f6, #06b6d4);
+    color: white !important;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.stButton button:hover {
+    transform: scale(1.02);
+}
+
+/* ===== FEATURE CARD ===== */
+
+.feature-card {
+    background: rgba(255,255,255,0.08);
+    padding: 20px;
+    border-radius: 18px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.08);
+    margin-bottom: 20px;
+}
+
+/* ===== CHAT ===== */
+
+.stChatMessage {
+    background-color: rgba(255,255,255,0.05);
+    border-radius: 18px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* CHAT TEXT */
+.stChatMessage * {
+    color: white !important;
+}
+
+/* ===== HERO IMAGE ===== */
+
+img {
+    border-radius: 20px;
+}
+
+/* ===== FOOTER ===== */
+
+.footer {
+    text-align: center;
+    color: #dbeafe;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+/* ===== SMOOTH ===== */
+
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+/* =========================
+   FORCE WHITE TEXT
+========================= */
+
+/* SELECTBOX */
+.stSelectbox * {
+    color: white !important;
+}
+
+/* SELECTBOX DROPDOWN */
+div[data-baseweb="select"] > div {
+    background-color: #1e293b !important;
+    color: white !important;
+}
+
+/* FILE UPLOADER TEXT */
+[data-testid="stFileUploader"] * {
+    color: white !important;
+}
+
+/* FILE UPLOADER BUTTON */
+[data-testid="stFileUploader"] button {
+    background-color: #334155 !important;
+    color: white !important;
+    border-radius: 10px !important;
+    border: none !important;
+}
+
+/* FILE DRAG AREA */
+[data-testid="stFileUploaderDropzone"] {
+    background-color: #1e293b !important;
+    border: 1px dashed rgba(255,255,255,0.2) !important;
+}
+
+/* CHAT INPUT BOX */
+[data-testid="stChatInput"] textarea {
+    background-color: #1e293b !important;
+    color: white !important;
+    border-radius: 15px !important;
+    border: 1px solid rgba(255,255,255,0.1) !important;
+}
+
+/* CHAT INPUT PLACEHOLDER */
+[data-testid="stChatInput"] textarea::placeholder {
+    color: #cbd5e1 !important;
+    opacity: 1 !important;
+}
+
+/* CHAT INPUT CONTAINER */
+[data-testid="stChatInput"] {
+    background-color: transparent !important;
+}
+
+/* CHAT SEND BUTTON */
+[data-testid="stChatInput"] button {
+    background-color: #22c55e !important;
+    color: white !important;
+    border-radius: 12px !important;
+}
+
+/* LABEL */
+label, p, span {
+    color: white !important;
+}
+
+/* REMOVE WEIRD WHITE BACKGROUND */
+[data-testid="stChatInputContainer"] {
+    background: transparent !important;
+}
+
+/* GLASS EFFECT */
+.feature-card,
+.stChatMessage {
+    backdrop-filter: blur(12px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* REMOVE RED OUTLINE */
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* REMOVE STREAMLIT WHITE HEADER */
+header {
+    background: transparent !important;
+}
+
+/* REMOVE STREAMLIT TOOLBAR WHITE */
+[data-testid="stHeader"] {
+    background: transparent !important;
+}
+
+/* REMOVE BOTTOM WHITE AREA */
+footer {
+    background: transparent !important;
+}
+
+/* FULL PAGE */
+section.main > div {
+    padding-top: 0rem !important;
+}
+
+/* CHAT AREA */
+[data-testid="stChatInputContainer"] {
+    background: transparent !important;
+}
+
+/* REMOVE HUGE WHITE CHAT AREA */
+[data-testid="stChatInputContainer"] {
+    background: transparent !important;
+    border: none !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+/* REMOVE EXTRA BOTTOM SPACE */
+.main .block-container {
+    padding-bottom: 0rem !important;
+}
+
+/* CHAT INPUT WRAPPER */
+.stChatFloatingInputContainer {
+    background: transparent !important;
+}
+
+/* REMOVE WHITE SECTION */
+section.main {
+    background: transparent !important;
+}
+
+/* BODY NO EXTRA SPACE */
+html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden;
+}
+
+/* CHAT INPUT POSITION */
+[data-testid="stChatInput"] {
+    margin-bottom: 10px !important;
+}
